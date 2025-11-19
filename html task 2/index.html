@@ -30,17 +30,15 @@
             <fieldset>
             <legend>Couse Information</legend>
             
-                <label for="courses">Select interested courses: </label> <br>
-                <label for="course1">
-                <input type="checkbox" name="course1" id="course1" value="webDesign"> Web Design <br></label>
-                <label for="course2">
-                <input type="checkbox" name="course2" id="course2" value="dataScience"> Data Science <br></label>
-                <label for="course3">
-                <input type="checkbox" name="course3" id="course3" value="aiBasics"> AI Basics <br></label>
-                <label for="course4">
-                <input type="checkbox" name="course4" id="course4" value="cyberSecurity"> Cyber Security <br></label>
-                <label for="course5">
-                <input type="checkbox" name="course5" id="course5" value="cloudComputing"> Cloud Computing <br> </label><br>
+                <label for="course">Select your interested course: </label>
+                <select name="course" id="course" required>
+                    <option value="">Select a course</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="python">Python</option>
+                    <option value="java">Java</option>
+                </select> <br><br>
                 <label for="date">Select date: </label>
                 <input type="date" name="date" id="date" required> <br><br>
                 <label for="resume">Upload your resume or transcript: </label>
