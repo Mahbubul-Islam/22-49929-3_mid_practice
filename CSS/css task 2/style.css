@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+#aboutme{
+    background-color: lightblue;
+}
+#education{
+    background-color: lightgreen;
+}
+#hobbies{
+    background-color: lightcoral;
+}
+.pd-20{
+    padding: 20px;
+}
+.hr1, .hr2{
+    padding: 5px 0;
+    border: none;
+    margin: 10px auto;
+    width: 50%;
+    height: 5px;
+    margin: 10px auto;
+    background-color: red;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    border-radius: 24px;
+}
