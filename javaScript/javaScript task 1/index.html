@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <style>
+        span{
+            color: red;
+            font-weight: bold;
+        }
+        #formERR{
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" onsubmit="return validateForm()">
+        <label for="usernameTF">Username: </label>
+        <input type="text" id="usernameTF">
+        <span id="usernameERR"></span> <br><br>
+        <label for="emailTF">Email: </label>
+        <input type="text" id="emailTF">
+        <span id="emailERR"></span> <br><br>
+        <label for="passwordTF">Password: </label>
+        <input type="password" id="passwordTF">
+        <span id="passwordERR"></span> <br><br>
+        <label for="confirmPasswordTF">Confirm Password: </label>
+        <input type="password" id="confirmPasswordTF">
+        <span id="confirmPasswordERR"></span> <br><br>
+        <label for="phoneTF">Phone: </label>
+        <input type="text" id="phoneTF">
+        <span id="phoneERR"></span><br><br>
+        <button type="submit">Submit</button>
+        <span id="formERR"></span>
+    </form>
+</body>
+</html>
