@@ -1,0 +1,24 @@
+#analyzeBtn {
+  display: block;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+#container{
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:brown;
+    font-weight: bold;
+}
