@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  margin: 10px auto 20px auto;
+  position: sticky;
+  top: 0;
+}
+body {
+  padding: 0px 5px;
+}
+
+nav {
+  /* background-color: rgb(47,38,38); */
+  background-color: rgb(197, 170, 106);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  border-radius: 15px;
+  font-size: 24px;
+}
+nav a {
+  text-decoration: none;
+  font: bold;
+  color: white;
+}
+nav a:hover {
+  /* color : rgb(197,170,106); */
+  color: rgb(47, 38, 38);
+}
+
+#contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px auto;
+  gap: 45px;
+  padding: 0 20px;
+}
+#contactForm label {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+.projectDesing button a {
+  text-decoration: none;
+  color: white;
+}
+#contactForm button,
+.projectDesing button {
+  background: blue;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  margin-top: 10px;
+}
+#text {
+  width: 30%;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+#projects .projectDesing {
+  border: 2px solid black;
+  padding: 15px;
+  width: 25%;
+}
+
+#greetingMsg {
+  position: absolute;
+  right: 20px;
+  top: 80px;
+  /* background-color: rgb(197, 170, 106); */
+  /* color: black; */
+  padding: 15px 25px;
+  border-radius: 10px;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); */
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 1000;
+}
+
+#toggleTheme{
+  background: blue;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  margin: 10px 0;
+  border-radius:5px;
+  font-weight: bold;
+}
+#about{
+    width: 50%;
+    margin-top: 45px;
+}
+span{
+  color: red;
+}
